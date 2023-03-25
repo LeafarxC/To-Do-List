@@ -1,0 +1,41 @@
+.commentForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 736px;
+  height: 54px;
+  left: calc(50% - 736px/2);
+  top: 173px;
+
+}
+
+.commentForm textarea {
+  width: 638px;
+  height: 54px;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  background: var(--gray-500);
+  color: var(--gray-100);
+  resize: none;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 22px;  
+  color: var(--gray-300);
+  overflow: hidden;
+}
+
+.commentForm textarea:focus {
+  outline: none;
+}
+
+.commentForm button {
+  width: 90px;
+  border-radius: 8px;
+  padding: 16px;
+  border: none;
+  background: var(--blue-500);
+  color: var(--gray-100);
+  margin-left: 1rem;
+}
