@@ -1,3 +1,4 @@
+import { PlusCircle } from 'phosphor-react';
 import styles from './Contentbox.module.css';
 
 export function Contentbox() {
@@ -10,7 +11,7 @@ export function Contentbox() {
                     required
                 />
                     <button type='submit'>
-                      Criar
+                      Criar <PlusCircle />
                     </button>
             </form>
     </div>

@@ -1,18 +1,21 @@
 .commentForm {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
   padding: 0px;
   position: absolute;
-  width: 736px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   height: 54px;
-  left: calc(50% - 736px/2);
-  top: 173px;
+  top: 10.63rem;
 
 }
 
 .commentForm textarea {
-  width: 638px;
+  width: 46rem;
   height: 54px;
   border: 1px solid var(--gray-700);
   border-radius: 8px;
@@ -24,6 +27,7 @@
   line-height: 22px;  
   color: var(--gray-300);
   overflow: hidden;
+
 }
 
 .commentForm textarea:focus {
@@ -31,6 +35,9 @@
 }
 
 .commentForm button {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   width: 90px;
   border-radius: 8px;
   padding: 16px;
@@ -38,4 +45,8 @@
   background: var(--blue-500);
   color: var(--gray-100);
   margin-left: 1rem;
+}
+
+.commentForm button svg {
+  margin-top: 0.2rem;
 }
