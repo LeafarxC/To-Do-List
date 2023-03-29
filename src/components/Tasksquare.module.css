@@ -4,11 +4,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  margin: 5rem auto;
+  margin: 5rem auto 3rem auto;
   width: 52rem;
 }
 
-.task {
+.taskcreated{
   display: flex;
   gap: 0.5rem;
   color: var(--blue-300);
@@ -18,7 +18,7 @@
   line-height: 17px;
 }
 
-.task > div {
+.taskcreated > div {
   color: var(--white);
   background: var(--gray-400);
   border-radius: 999px;

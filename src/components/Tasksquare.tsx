@@ -6,7 +6,7 @@ export function Tasksquare() {
       <div className={styles.info}>
 
 
-        <div className={styles.task}>
+        <div className={styles.taskcreated}>
          <p>Taferas Criadas </p>
           <div> 5 </div>
         </div>
